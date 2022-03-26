@@ -1,8 +1,36 @@
-h1{
+h1 ,h2 , h3 ,h4 ,h5,h6{
     font-family: 'Playfair Display', serif;
 font-weight: bold;
 }
 p{
 font-family: 'Poppins', sans-serif;
 font-weight: normal;
+}
+
+.top{
+    background: #F9F7FE;
+    text-align: center;
+    padding: 160px 30px;
+}
+.top p{
+    font-size: 36px;
+    font-weight: bold;
+    color: #272142;
+}
+.top h1{
+    font-size: 96px;
+    font-weight: bold;
+    color: #000000;
+}
+.top h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24;
+    font-weight: normal;
+}
+.btn-button{
+    background: #6C63FF;
+    color: #ffffff;
+    font-family:  'Poppins', sans-serif;
+    font-size: 18;
+    padding: 15px 20px;
 }
