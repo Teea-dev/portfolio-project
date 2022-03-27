@@ -62,9 +62,30 @@ h2{
 .project{
     padding: 120px 60px;
 }
+.about-page{
+    padding: 160px 20px;
+}
+.about-page h2{
+    font-size: 18px;
+    font-family: var(--basic-font);
+    font-weight: bold;
+}
+.about-page h1{
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 80px;
+}
+.about-page-content{
+    margin: 30px;
+}
+.rita{
+    border-radius: 10px;
+}
+
 @media (max-width:900px){
-   .top h1{
-        font-size: 60px;
+    h1{
+        font-size: 44px;
+        line-height: 56px;
     }
     h2{
         font-size: 42px;
@@ -75,5 +96,9 @@ h2{
     .project{
         padding: 0;
         text-align: center;
+    }
+    .about-page{
+        text-align: center;
+        padding: 0;
     }
 }
