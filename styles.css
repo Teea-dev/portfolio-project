@@ -89,6 +89,11 @@ h2 {
     font-size: 24px;
     font-weight: bold;
 }
+.links{
+    font-size: 14px;
+    font-weight: normal;
+    
+}
 
 @media (max-width: 900px) {
   h1 {
