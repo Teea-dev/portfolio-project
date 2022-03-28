@@ -94,9 +94,37 @@ h2 {
     font-weight: normal;
     
 }
+nav{
+  padding: 20px 0;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+
+}
+nav li{
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  line-height: 42px;
+   font-size: 16px;
+   font-family: var(--basic-font);
+   font-weight: normal;
+}
+nav a{
+  text-decoration: none;
+  color: #272142;
+}
+nav a:hover , nav a.active{
+  color: var(--brand-color);
+  transition: all 100ms ease-in-out;
+}
+.logo{
+ max-height: 40px;
+}
 
 @media (max-width: 900px) {
-  h1 {
+ .top h1 {
     font-size: 44px;
     line-height: 56px;
   }
@@ -114,4 +142,5 @@ h2 {
     text-align: center;
     padding: 10px 0;
   }
+ 
 }
