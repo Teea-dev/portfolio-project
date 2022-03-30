@@ -31,7 +31,7 @@ h4{
 .top {
   background: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .top p {
   font-size: 36px;
@@ -69,7 +69,7 @@ h1 {
   padding: 120px 60px;
 }
 .page {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .page h2 {
   font-size: 18px;
@@ -155,9 +155,7 @@ footer .contact{
   h2 {
     font-size: 42px;
   }
-  .top {
-    padding: 80px 20px;
-  }
+  
   .project {
     padding: 0;
     text-align: center;
