@@ -147,6 +147,15 @@ footer .contact{
   padding: 30px 120px;
   border-radius: 10px;
 }
+
+.name-holder{
+display:block;
+  margin: 0 auto;
+
+  border: #000000 2px solid;
+  
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
