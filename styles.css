@@ -19,6 +19,8 @@ p {
   font-size: 18px;
   color: #272142;
   line-height: 27px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 h2 {
   font-size: 64px;
@@ -66,7 +68,7 @@ h1 {
   line-height: 27px;
 }
 .project {
-  padding: 120px 60px;
+  padding: 60px 30px;
 }
 .page {
   padding: 80px 20px;
@@ -164,7 +166,9 @@ display:block;
   h2 {
     font-size: 42px;
   }
-  
+  .advice{
+    margin-top: 50px;
+  }
   .project {
     padding: 0;
     text-align: center;
