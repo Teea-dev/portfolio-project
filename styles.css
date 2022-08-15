@@ -26,7 +26,7 @@ h2 {
   font-size: 64px;
   font-weight: bold;
 }
-h4{
+h4 {
   font-size: 48px;
 }
 
@@ -129,33 +129,48 @@ footer .email-link {
   text-decoration: none;
   color: black;
 }
-footer .email-link:hover{
+footer .email-link:hover {
   color: var(--brand-color);
 }
-footer .socials a{
-  margin:0 15px;
+footer .socials a {
+  margin: 0 15px;
   color: var(--brand-color);
-  background:  #f9f7fe;
+  background: #f9f7fe;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
 }
-footer .socials a:hover{
+footer .socials a:hover {
   color: #f9f7fe;
   background: var(--brand-color);
 }
-footer .contact{
+footer .contact {
   background: #f9f7fe;
   padding: 30px 120px;
   border-radius: 10px;
 }
 
-.name-holder{
-display:block;
+.name-holder {
+  display: block;
   margin: 0 auto;
 
   border: #000000 2px solid;
-  
+}
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: var(--brand-color);
+  border-radius: 10px;
 }
 
 @media (max-width: 900px) {
@@ -166,7 +181,7 @@ display:block;
   h2 {
     font-size: 42px;
   }
-  .advice{
+  .advice {
     margin-top: 50px;
   }
   .project {
@@ -177,8 +192,29 @@ display:block;
     text-align: center;
     padding: 10px 0;
   }
-  footer .email-link{
+  footer .email-link {
     font-size: 19px;
     margin: 5px 0;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-links li {
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
   }
 }
