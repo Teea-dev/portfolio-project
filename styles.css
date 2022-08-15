@@ -166,6 +166,11 @@ footer .contact {
   width: 30px;
   height: 21px;
 }
+.small-logo{
+  position: absolute;
+  top: 0.75rem;
+  left: 1rem;
+}
 .toggle-button .bar {
   height: 3px;
   width: 100%;
