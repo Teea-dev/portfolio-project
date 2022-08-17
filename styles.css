@@ -158,7 +158,7 @@ footer .contact {
 }
 .toggle-button {
   position: absolute;
-  top: 0.75rem;
+  top: 1rem;
   right: 1rem;
   display: none;
   flex-direction: column;
