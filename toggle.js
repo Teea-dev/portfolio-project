@@ -16,6 +16,6 @@ toggleButton.addEventListener('click', ()=>{
 //             onLeaveBack:()=>color.reverse(),
 //         });
 //     })
-gsap.from(".top",{duration:1, y:"-100%" , ease:'bounce'})
+gsap.from(".top",{duration:1.5, y:"-100%" , ease:'bounce'})
 gsap.from(".logo",{duration:1, opacity:0, delay:1})
 gsap.from(".bar",{duration:1, opacity:0, delay:2})
