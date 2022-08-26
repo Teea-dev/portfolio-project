@@ -173,6 +173,9 @@ footer .contact {
   background-color: var(--brand-color);
   border-radius: 10px;
 }
+.sections{
+  transform: translateY(100%);
+}
 
 @media (max-width: 900px) {
   h1 {
